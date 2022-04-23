@@ -6,13 +6,13 @@ This is private project for Generasi GIGIH 2.0 Programs
 
 ## Features
 
-- 1. Login
-- 2. Search tracks
-- 3. Tracks view
-- 4. Create Playlist
-- 5. Button to clear unselected track
-- 6. Select and Unselect track
-- 7. Logout
+- Login
+- Search tracks
+- Tracks view
+- Create Playlist
+- Button to clear unselected track
+- Select and Unselect track
+- Logout
 
 ## Installation
 
@@ -90,5 +90,3 @@ If you have any feedback, you can create issue(s) here [https://github.com/rifzk
 ## Licence
 
 MIT
-
-- Icons are taken from the other projects so please check each project licences accordingly.
