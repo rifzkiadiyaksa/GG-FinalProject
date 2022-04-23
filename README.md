@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+<p align="center"><a href="https://reactjs.org/" target="_blank"><img src="https://rawgit.com/gorangajic/react-icons/master/react-icons.svg" width="400" alt="React Icons"></a></p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Welcome to Spotifun Music! 
 
-## Available Scripts
+This is private project for Generasi GIGIH 2.0 Programs
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- 1. Login
+- 2. Search tracks
+- 3. Tracks view
+- 4. Create Playlist
+- 5. Button to clear unselected track
+- 6. Select and Unselect track
+- 7. Logout
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Run it Locally:
 
-### `npm test`
+1. Clone the project from git
+  ```bash
+     git clone https://github.com/rifzkiadiyaksa/GG-FinalProject.git
+  ```
+2. Go to the project directory on command menu
+  ```bash
+     cd GG-FinalProject
+  ```
+3. Install dependencies
+  ```bash
+     npm install
+  ```
+4. Set up the environment variables
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  write `REACT_APP_API_KEY` which contains your Spotify Client ID
 
-### `npm run build`
+5. Start the server to open
+  ```bash
+     npm start
+  ```
+6. `http://localhost:3000` will be opened on your browser and its contains result
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Testing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Run `npm test` for launches the test runner in the interactive watch mode.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Additional Info
 
-### `npm run eject`
+### Installation request
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-   React-redux
+-   React-router-dom
+-   Eslint
+-   Typescript   
+-   Material-UI
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Available scripts
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+`start` : run local dev server
 
-## Learn More
+`dev` : run local dev server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`build` : produce build
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`preview` : preview the build
 
-### Code Splitting
+`lint` : run eslint
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+`format` : run prettier to beautify code
 
-### Analyzing the Bundle Size
+`test` : run testing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contribute
 
-### Making a Progressive Web App
+Fork it first and you're ready to go.
+Opened for any improvements or fixes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Feedback
 
-### Advanced Configuration
+If you have any feedback, you can create issue(s) here [https://github.com/rifzkiadiyaksa/GG-FinalProject/issues]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Tech-stack Breakdown
 
-### Deployment
+[![](https://img.shields.io/badge/TYPESCRIPT%20-%233178C6.svg?&style=flat&logo=typescript&logoColor=white)](https://typescriptlang.org)
+[![](https://img.shields.io/badge/REACT%20-%2356BDDA.svg?&style=flat&logo=react&logoColor=white)](https://reactjs.org)
+[![](https://img.shields.io/badge/REDUX%20-%23764ABC.svg?&style=flat&logo=redux&logoColor=white)](https://redux.js.org)
+[![](https://img.shields.io/badge/VERCEL%20-%23000000.svg?&style=flat&logo=vercel&logoColor=white)](https://vercel.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Licence
 
-### `npm run build` fails to minify
+MIT
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Icons are taken from the other projects so please check each project licences accordingly.
